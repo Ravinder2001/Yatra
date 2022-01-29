@@ -1,0 +1,72 @@
+.cur{
+    margin-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cur:hover{
+    transform: scale(1.1)
+    /* transition: transform .2s */
+}
+.f{
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.f:hover{
+   color: blue;
+    border-bottom: 2px solid blue;
+}
+.t{
+    width: 170px;
+    height: 190px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.t:hover{
+    box-shadow: 0px 0px 12px grey;
+}
+.line{
+    width: 2px;
+    height: 70px;
+    background-color: brown;
+    float: left;
+    /* margin-left: 10px; */
+    margin-top: 20px;
+}
+.frm{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+    float: left;
+}
+.date{
+    margin-left:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+}
+.to{
+margin-left: 70px;
+margin-top: 10px;
+font-weight: bolder;
+float: left;
+}
+.sta{
+    margin-top: 100px;
+    margin-left: 40px;
+   clear: both;
+   color: rgb(90, 89, 89);
+}
+.rup{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: red;
+    font-weight: bolder;
+}

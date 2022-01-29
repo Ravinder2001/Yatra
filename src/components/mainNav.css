@@ -1,0 +1,215 @@
+
+#nav{
+    width: 100%;
+    height: 75px;
+    
+    position: fixed;
+    background-color: white;
+}
+#logo{
+    width: 130px;
+   margin-top: 13px;
+   margin-left: 40px;
+   cursor: pointer;
+   
+}
+#logoBox{
+    float: left;
+ 
+}
+.Icon{
+   width: 60px;
+   height: 50px;
+  cursor: pointer;
+   text-align: center;
+   float: left;
+   margin-top: 21px;
+   margin-left: 2px;
+  font-family: Rubik,sans-serif;
+  font-size: 15px;
+  
+  color: rgb(109, 106, 106);
+}
+.Icon:hover{
+    color: red;
+    border-bottom: 4px solid;
+}
+#cabs{
+    margin-left: 3px;
+   
+}
+#list{
+    margin-left: 250px;
+    
+}
+#more{
+    width: 60px;
+    height: 20px;
+    float: left;
+    box-shadow: 0px 0px 1px 1px rgb(194, 192, 192);
+    margin-top: 40px;
+    border-radius: 10px;
+    font-family: Rubik,sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer; color: rgb(109, 106, 106);
+}
+#more:hover{
+    background-color: red;
+    color: white;
+}
+#more:hover + #morelist{
+    display: block;
+}
+#morelist:hover{
+    display: block;
+}
+#morelist{
+    width: 160px;
+    height: 160px;
+ box-shadow: 1px 1px 2px 2px rgb(209, 208, 208);
+    margin-left: 28%;
+   clear: both;
+   border-radius: 7px;
+   background-color: white; font-family: Rubik,sans-serif;
+ position: absolute;
+ margin-top: 60px;
+ display: none;
+}
+.moreicon{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.morename{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.morename:hover{
+    color: red;
+}
+.acc{
+    float: left;
+   
+}
+.ar{
+    float: left;
+    margin-top: 30px;
+}
+#sidetext1{
+    float: left;
+   margin-left: 200px;
+  margin-top: 30px;
+  cursor: pointer;
+  height: 50px;
+}
+.sidetext{
+    float: left;
+   margin-left: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+font-size: 15px;
+}
+.sidetext:hover{
+    color: red;
+}
+#sideho:hover~#acctext{
+    display: block;
+}
+#acctext{
+    display: none;
+    width: 230px;
+    height: 220px;
+    background-color: white;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 80px;
+    border-radius: 10px;
+   box-shadow: 1px 1px 2px 2px  grey;
+   font-size: 15px;
+}
+#acctext:hover{
+    display: block;
+}
+#sup{
+    display: none;
+    width: 180px;
+    height: 200px;
+    background-color: white;
+position: absolute;
+    margin-left: 69%;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px  grey;
+}
+#sideho1:hover~#sup{
+    display: block;
+}
+#sup:hover{
+    display: block;
+}
+.fl{
+    float: left;
+}
+
+.book{
+   float: left;
+   cursor: pointer;
+   font-family: Rubik,sans-serif;
+   color: rgb(85, 84, 84);
+   margin-top: 3px;
+   font-weight: bold;
+ font-size: 15px;
+}
+#acci{
+    width: 50px;
+    background-color: white;
+ 
+    margin-top: 0px;
+    margin-left: 5px;
+}
+#bo{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#login{
+    background-color: red;
+    color: white;
+    width: 65px;
+    height: 25px;
+    border: 1px solid red;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#signup{
+    background-color: white;
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    width: 65px;
+    margin-left: 10px;
+    height: 25px;
+}
+#ag{
+clear: both;
+}
+.book:hover{
+    color: red;
+}
+.ri{
+    float: left;
+}
+.cl{
+    clear: both;
+}
+.rit{
+    font-size: 13px;
+    margin-top: 10px;
+    color:rgb(44, 43, 43) ;
+    cursor: pointer;
+}
+.rit:hover{
+    color: red;
+}
